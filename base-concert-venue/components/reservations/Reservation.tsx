@@ -82,7 +82,7 @@ export const Reservation = ({ showId, submitPurchase }: ReservationProps) => {
             <>
               <Heading
                 size="md"
-                color={show.availableSeatCount < 10 ? "red.500" : "inherit"}
+                color={show.availableSeatCount <= 10 ? "red.500" : "inherit"}
               >
                 {show.availableSeatCount} seats left
               </Heading>

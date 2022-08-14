@@ -10,7 +10,7 @@ test("renders background image and title", () => {
   expect(heading).toBeInTheDocument();
 
   const image = screen.getByRole("img", {
-		name: "Concert goer with hands in the shape of a heart",
+    name: "Concert goer with hands in the shape of a heart",
   });
   expect(image).toBeInTheDocument();
 });
